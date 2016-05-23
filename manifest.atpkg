@@ -1,0 +1,10 @@
+(package
+:name "DummyBinary"
+
+:binaries {
+    :1.0 {
+        :url "https://example.com/file.tar.xz"
+    }
+}
+
+)
