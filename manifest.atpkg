@@ -2,8 +2,17 @@
 :name "DummyBinary"
 
 :binaries {
-    :1.0 {
-        :url "https://example.com/file.tar.xz"
+    :channels {
+        :linux {
+            :1.0 {
+                :url "https://github.com/AnarchyTools/dummyBinaryPackage/releases/download/0.1/linux.tar.xz"
+            }
+        }
+        :osx {
+            :1.0 {
+                :url "https://github.com/AnarchyTools/dummyBinaryPackage/releases/download/0.1/osx.tar.xz"
+            }
+        }
     }
 }
 
